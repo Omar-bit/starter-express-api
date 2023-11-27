@@ -23,7 +23,7 @@ function Post(props) {
       </header>
       <hr />
       <img
-        src={'https://picsum.photos/250/250'}
+        src={props.img?props.img:'https://picsum.photos/250/250'}
         alt=''
         className='w-full h-[200px] lg:h-[250px] object-cover'
       />
